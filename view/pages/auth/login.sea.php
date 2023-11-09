@@ -1,5 +1,7 @@
 <?= $this->extend('layouts.auth') ?>
 
+<?= $this->share('title', 'Login') ?>
+
 <?= $this->section('content') ?>
   <div class="container d-flex justify-content-center align-items-center my-3">
     <form action="<?= route('/login') ?>" method="post">
