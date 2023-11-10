@@ -38,7 +38,7 @@ class RouteServiceProvider extends Provider {
       });
 
     Route::namespace('Bin\\Controllers\\Api')
-      ->as('api.')
+      ->name('api.')
       ->prefix('/api')
       ->group(function () {
         require_once basepath() . '/route/api.php';
