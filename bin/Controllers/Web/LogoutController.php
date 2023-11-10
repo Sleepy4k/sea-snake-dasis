@@ -11,7 +11,7 @@ class LogoutController extends Controller {
    * @return void
    */
   public function __invoke() {
-    session_destroy();
+    session()->regenerate();
     redirect('/');
   }
 }
