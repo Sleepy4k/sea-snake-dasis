@@ -10,7 +10,7 @@
   <div class="navbar-nav">
     <div class="nav-item text-nowrap">
       <a class="nav-link px-3" href="#" onclick="event.preventDefault();document.getElementById('logout').submit();">Keluar</a>
-      <form action="<?= route('/logout') ?>" method="POST" class="d-none" id="logout"></form>
+      <form action="<?= route('logout') ?>" method="POST" class="d-none" id="logout"></form>
     </div>
   </div>
 </header>
