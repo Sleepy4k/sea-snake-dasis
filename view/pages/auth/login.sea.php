@@ -4,7 +4,7 @@
 
 <?= $this->section('content') ?>
   <div class="container d-flex justify-content-center align-items-center my-3">
-    <form action="<?= route('/login') ?>" method="post">
+    <form action="<?= route('login.store') ?>" method="post">
         <div class="mb-3">
           <label for="username" class="form-label"><?= $get('formTitle', 'Username') ?></label>
           <input type="text" class="form-control" id="username" name="username" placeholder="Your <?= $get('formTitle', 'Username') ?>">
@@ -16,7 +16,7 @@
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
-        <a href="<?= route('/') ?>" class="btn btn-secondary">Back</a>
+        <a href="<?= route('landing') ?>" class="btn btn-secondary">Back</a>
     </form>
   </div>
 <?= $this->stop() ?>

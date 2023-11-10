@@ -7,7 +7,7 @@
       <p>Innovative, Trusthworthy, Teamwork, Professional</p>
     </div>
     <div class="route">
-      <a href="<?= route('/login') ?>">Admin</a>
+      <a href="<?= route('login.index') ?>">Admin</a>
       <a href="#">Dosen</a>
       <a href="#">Wali Siswa</a>
       <a href="#">Siswa</a>
